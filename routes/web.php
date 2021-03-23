@@ -11,7 +11,7 @@ Route::get('/', Home_controller::class);
 //Rutas del blog
 Route::get('blogs', [Blog_controller::class, 'index_block']);
 //va a mostrar los blogs relacionado al controlador blogcontroller
-Route::get('blogs/{blogs}', [Blog_controller::class, 'mostrarBlogs']);
+Route::get('blogs/{blog}', [Blog_controller::class, 'mostrarBlogs']);
 
 //Ruta del Portafolio
 
