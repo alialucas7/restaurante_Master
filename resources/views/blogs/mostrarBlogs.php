@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Aca mostramos los blogs kapito  ej:  <?php echo $blog; ?></h1>
+    <h1 class="text-center"> Aca mostramos los blogs kapito  ej:  <?php echo $blog; ?></h1>
 </body>
 </html>
 
