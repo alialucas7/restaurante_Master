@@ -17,3 +17,7 @@ Route::get('blogs/{blog}', [Blog_controller::class, 'mostrarBlogs']);
 
 
 
+
+//Auth::routes();
+
+//Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
