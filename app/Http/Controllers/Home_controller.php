@@ -8,7 +8,7 @@ class Home_controller extends Controller
 {
     //
     public function __invoke(){
-    return "mostrando algo";
+    return view('home');
 
     }
 }
