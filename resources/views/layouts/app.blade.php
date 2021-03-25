@@ -17,7 +17,11 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+<<<<<<< HEAD
     <link href="{{ asset('mi-estile.css') }}" rel="stylesheet">
+=======
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+>>>>>>> 52f88ac4aba732ad2410c432e291a7d93b0f5644
 </head>
 <body>
     <div id="app">
