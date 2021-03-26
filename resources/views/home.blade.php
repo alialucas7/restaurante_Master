@@ -2,5 +2,5 @@
 @section('titulo','Inicio') //Este titulo se ve en la pestaña
 
 @section('contenido')
-    <h1>havkeeer putotoo ini</h1>
+    <h1>Bienvenido a Heroku-Game</h1>
 @endsection
