@@ -18,12 +18,4 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
-
-
-    RewriteCond %{HTTPS} !=on
-    RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
-
-    RewriteCond %{HTTP_HOST} ^https://alialucas7.herokuapp.com/$ [NC]
-    RewriteRule ^(.*)$ https://alialucas7.herokuapp.com/ [R=301,L]
-
 </IfModule>

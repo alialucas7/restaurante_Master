@@ -2,8 +2,6 @@
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
-//use App\Http\Request;
-
 
 define('LARAVEL_START', microtime(true));
 
@@ -53,11 +51,5 @@ $kernel = $app->make(Kernel::class);
 $response = tap($kernel->handle(
     $request = Request::capture()
 ))->send();
-/*
 
-$response = $kernel->handle(
-    
-    $request = App\Http\Request::capture()
-);
-*/
 $kernel->terminate($request, $response);
