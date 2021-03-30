@@ -11,13 +11,14 @@
 
 @section('contenido')
     <h1 class="bg-red-300 text-center">Bienvenido a Heroku-Game</h1>
-
-
-    <button type="button" class="nes-btn is-primary">Primary</button>
-    <button type="button" class="nes-btn is-success">Success</button>
-    <button type="button" class="nes-btn is-warning">Warning</button>
-    <button type="button" class="nes-btn is-error">Error</button>
-
+    <h1 class="text-white">valeria cabexa de pichooo</h1>
+    <div class="text-center">
+      <button type="button" class="nes-btn is-primary">Primary</button>
+      <button type="button" class="nes-btn is-success">Success</button>
+      <button type="button" class="nes-btn is-warning">Warning</button>
+      <button type="button" class="nes-btn is-error">Error</button>  
+    </div>
+   
 
     <section class="">
         <!-- Copyright Nintendo -->
