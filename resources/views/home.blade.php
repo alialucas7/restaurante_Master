@@ -1,5 +1,6 @@
 @extends('layouts.plantilla')
 @section('titulo','Inicio') 
+
 <!-- minify -->
 <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
 <!-- latest -->

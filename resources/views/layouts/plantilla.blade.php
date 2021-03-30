@@ -9,6 +9,7 @@
 
     
    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+   
 
     <!--link href="{{ asset('mi_estile.css') }}" rel="stylesheet"-->
   
@@ -16,7 +17,7 @@
     
 </head>
 
-<body>
+<body class="bg-black">
     <h1>@yield('contenido')</h1>
 </body>
 </html>
