@@ -2,8 +2,72 @@ body{
     background-color: black;
 }
 
-h1{
+.textito{
     background-color: red;
     text-align: center;
     text-transform: initial;    
 }
+
+.miNav{
+    position: relative;
+    height: 40px;
+    margin: 2px auto ;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    background: white;
+    /*background: #EA9988;*/
+    border-radius: 8px;
+    font-size: 0;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
+}
+
+.miNav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 15px;
+    line-height: 40px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+        
+}
+
+a:nth-child(1){
+    width: 33.3%;
+}
+nav.start-Juegos,a:nth-child(1):hover~.animation{
+    width: 33.3%;
+    left: 0%;
+    
+} 
+
+a:nth-child(2){
+    width: 33.3%;
+}
+nav.start-Blogs,a:nth-child(2):hover~.animation{
+    width: 33.3%;
+    left: 33.3%; 
+} 
+
+a:nth-child(3){
+    width: 33.3%;
+}
+nav.start-Arcade,a:nth-child(3):hover~.animation{
+    width: 33.4%;
+    left: 66.6%; 
+} 
+
+nav .animation{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    background: #FA694A;
+    width: 33.333%;
+    border-radius: 8px;
+    transition: all .5s ease 0s;
+}
+
+
+

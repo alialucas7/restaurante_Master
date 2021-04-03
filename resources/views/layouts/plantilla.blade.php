@@ -11,13 +11,13 @@
    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
    
 
-    <!--link href="{{ asset('mi_estile.css') }}" rel="stylesheet"-->
+    <link href="{{ asset('mi_estile.css') }}" rel="stylesheet">
   
     
     
 </head>
 
-<body class="bg-black">
+<body class="">
     <h1>@yield('contenido')</h1>
 </body>
 </html>
