@@ -6,7 +6,10 @@ body{
    
     text-align: center;
     text-transform: initial; 
-    color: #EA9988;   
+    color: #ff6333;   
+}
+.mifooter{
+    background-color: #ff6333;    
 }
 
 .miNav{
@@ -70,7 +73,7 @@ nav .animation{
     height: 100%;
     top: 0;
     z-index: 0;
-    background: #EA9988;
+    background: #ff6333;
     width: 33.333%;
     border-radius: 8px;
     transition: all .5s ease 0s;
